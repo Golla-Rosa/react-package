@@ -12,7 +12,7 @@ npm i layoutpackage
 
 
 # Usage
-import Grid from 'react-package'
+import Grid from 'layoutpackage'
 
 ```tsx
 	<Grid styleProps={{columns: columLength, rows: rowLength}}/>
