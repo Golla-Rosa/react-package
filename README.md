@@ -1,4 +1,8 @@
-System created to ease the use of css layouts in react apps.
+npm package to simplify the use of grid.
+
+ I do not mantain it as was an experiment
+
+System created to ease the use of grid layouts in react apps.
 
 
 # Install
@@ -8,7 +12,14 @@ npm i layoutpackage
 
 
 # Usage
+import Grid from 'react-package'
 
+```tsx
+	<Grid styleProps={{columns: columLength, rows: rowLength}}/>
+		<Children styleProps={{column: "startColumn/endColumn"}}/>
+		// add 	any children
+	</Grid>
+```
 Creating a 3x3 layout
 ```tsx
       <Grid styleProps={{columns: 3, rows: 3}}>
