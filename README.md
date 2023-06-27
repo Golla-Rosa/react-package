@@ -20,7 +20,7 @@ Creating a 3x3 layout
 		      </Grid>
 	      </Navbar>
 	      <Body styleProps={{row: 2, column: "1/4" }}>
-		      // vous avez capté le délire, 69 la trik
+		      
 	      </Body>
 	      
 	      <Footer styleProps={{row: 3, column: "1/4"}}</Footer>
